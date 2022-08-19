@@ -1,0 +1,109 @@
+.main {
+  max-height: 50vh;
+}
+
+.mainContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+  justify-content: space-evenly;
+}
+
+.punkHighlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.punkContainer > img {
+  margin-left: 30px;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+  margin-left: 30px;
+}
+.punkDetails {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.title {
+  font-size: 66px;
+  font-weight: 800;
+  margin-left: 40px;
+}
+
+.itemNumber {
+  color: #a1a5b0;
+  font-size: 72px;
+  align-self: flex-end;
+  margin-left: 30px;
+}
+
+.owner {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.owner > div {
+  margin: 0 5px;
+}
+
+.ownerImageContainer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.ownerImageContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.ownerDetails {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.ownerNameAndHandle {
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-bottom: 30px;
+}
+
+.ownerHandle {
+  color: #00ebfe;
+}
+
+.ownerLink {
+  padding: 12px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  margin: 0 20px 0 10px;
+}
+
+.ownerLink > img {
+  height: 100%;
+  width: 100%;
+}
